@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="./imagenes/man.svg" type="image/svg">
+    <title>MiPortfolio</title>
+</head>
+<body>
+  <div class="main-container">
+    <section class="navbar-container__desktop">
+      <h1>Tomi Vizzo</h1>
+      <nav class="navbar-container__desktop__list">
+        <a href="#home">    
+              <i class="fas fa-home"></i><span>Home</span>
+        </a>   
+         
+        <a href="#aboutme">
+            <i class="far fa-address-card"></i><span>Sobre mi</span>
+        </a>
+        
+        <a href="#service">
+          <i class="fas fa-briefcase"></i><span>Servicios</span>
+        </a> 
+          
+        <a href="#experience">   
+          <i class="fas fa-graduation-cap"></i><span>Experiencia</span>
+        </a>
+         
+        <a href="#works"> 
+          <i class="fas fa-clone"></i><span>Mis trabajos</span>
+        </a>  
+         
+        <a href="#contactme">
+          <i class="fas fa-envelope-square"></i><span>Contactame</span>
+        </a>    
+      </nav>                
+    </section> 
+    <div class="full-container">
+      <section class="navbar-container__mobile">
+        <nav class="navbar-container__mobile__list">
+          <label for="navbar" class="navbar-container__mobile__list__label">
+            <input type="checkbox" id="navbar" class="navbar-input" />
+            <div class="navbar-open">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="navbar-close">
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="navbar-contet">
+              <a href="#home">    
+                <i class="fas fa-home"></i><span>Home</span>
+              </a>   
+              
+              <a href="#aboutme">
+                  <i class="far fa-address-card"></i><span>Sobre mi</span>
+              </a>
+              
+              <a href="#service">
+                <i class="fas fa-briefcase"></i><span>Servicios</span>
+              </a> 
+                
+              <a href="#experience">   
+                <i class="fas fa-graduation-cap"></i><span>Experiencia</span>
+              </a>
+              
+              <a href="#works"> 
+                <i class="fas fa-clone"></i><span>Mis trabajos</span>
+              </a>  
+              
+              <a href="#contactme">
+                <i class="fas fa-envelope-square"></i><span>Contactame</span>
+              </a>  
+            </div>
+          </label>
+        </nav>
+      </section>
+      <section class="banner-container" id="home">
+        <div class="background-image">
+        </div>
+        <div class="banner-container__main">
+          <img class="banner-container__main__image" src="./imagenes/man.svg" alt="myself">
+          <h2 class="banner-container__main__titulo">Tomás Vizzo</h2>
+          <span>Web Developer</span>
+          <div class="banner-container__main__redes">
+            <a  href="https://www.linkedin.com/in/tom%C3%A1s-vizzo-4056831aa/"><i class="fab fa-linkedin-in"></i></a>
+            <a  href="https://github.com/TomVizzo"><i class="fab fa-github"></i></a>
+            <a  href="https://twitter.com/hivizzo"><i class="fab fa-twitter"></i></a>
+            <a  href="https://www.instagram.com/tomi.vizzo/?hl=es-la"><i class="fab fa-instagram"></i></a>
+          </div>
+          <button class="banner-container__main__boton">
+            <a href="#contactme">Contactame</a>
+          </button>
+        </div>
+        <a class="banner-container__scroll" href="#aboutme">
+          <span>Scroll Down</span>
+          <img src="./imagenes/download.png" alt="mwheeldown">
+        </a>
+      </section>
+      <section class="aboutme-container" id="aboutme">
+        <h3 class="aboutme-container__title">Sobre mi</h3>
+        <div class="aboutme-container__skills">
+          <img class="aboutme-container__skills__image" src="./imagenes/man.svg" alt="myself">
+          <div class="aboutme-container__skills__card">
+            <div class="aboutme-container__skills__card__biography">
+              <p><strong> < Hello World /> </strong><br> Soy desarrollador web. Estudiante de Ingenieria en Sistemas en la UTN, y en busca constante de aprendizaje.</p>
+              <button>
+                <a href="https://www.linkedin.com/in/tom%C3%A1s-vizzo-4056831aa/">Ver curriculum</a>
+              </button>
+            </div>
+            <div class="aboutme-container__skills__card__specs">
+              <div class="habilitys">
+                <span>HTML-CSS</span>
+                <div class="incomplete-bars-a">
+                  <div class="complete-bars-a"></div>
+                </div>
+              </div>
+              <div class="habilitys">
+                <span>JavaScript</span>
+                <div class="incomplete-bars-c">
+                  <div class="complete-bars-c"></div>
+                </div>
+              </div>
+              <div class="habilitys">
+                <span>Estructura de Datos</span>
+                <div class="incomplete-bars-b">
+                  <div class="complete-bars-b"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service-container" id="service" >
+        <h3>Servicios</h3>
+        <div class="service-container__card">
+          <article>
+            <img src="./imagenes/html.svg" alt="">
+            <h3>Maquetación</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maxime molestiae facere</p>
+          </article>
+          <article>
+            <img src="./imagenes/css.svg" alt="">
+            <h3>Estilos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maxime molestiae facere.</p>
+          </article>
+          <article>
+            <img src="./imagenes/javascript.svg" alt="">
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maxime molestiae facere.</p>
+          </article>
+        </div>
+      </section>
+      <section class="experience-container" id="experience">
+        <h3>Experiencia</h3>
+        <div class="experience-container__topics">
+          <div class="experience-container__topics__card">
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span>2019 - Actualidad</span>
+              <h3>Academy</h3>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span>2017 - 2019</span>
+              <h3>Academy</h3>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-graduation-cap"></i>
+              <span>2015 - 2017</span>
+              <h3>Academy</h3>
+              <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+          </div>
+          <div class="experience-container__topics__card">
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-briefcase"></i>
+              <span>2019 - Actualidad</span>
+              <h3>Academy</h3>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-briefcase"></i>
+              <span>2017 - 2019</span>
+              <h3>Academy</h3>
+              <p class="experience-container__topics__card__data__description">Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+            <div class="experience-container__topics__card__data">
+              <i class="fas fa-briefcase"></i>
+              <span>2015 - 2017</span>
+              <h3>Academy</h3>
+              <p>Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works-container" id="works">
+        <h3>Mis trabajos</h3>
+        <div class="works-container__card">
+          <figure class="works-container__card__image">
+            <img src="/imagenes/undraw_mobile_feed_73bd.svg" alt="sample38"/>
+            <figcaption>
+              <h3>Responsive</h3>
+            </figcaption>			
+          </figure>
+          <figure class="works-container__card__image">
+            <img src="/imagenes/undraw_online_posts_h475.svg" alt="sample39"/>
+            <figcaption>
+              <h3>Feedback</h3>
+            </figcaption>			
+          </figure>
+          <figure class="works-container__card__image">
+            <img src="imagenes/undraw_shopping_app_flsj.svg" alt="sample40"/>
+            <figcaption>
+              <h3>Shopping</h3>
+            </figcaption>			
+          </figure>
+          <figure class="works-container__card__image">
+            <img src="/imagenes/undraw_mobile_ux_o0e1.svg" alt="sample38"/>
+            <figcaption>
+              <h3>Maquetacion</h3>
+            </figcaption>			
+          </figure>
+          <figure class="works-container__card__image">
+            <img src="/imagenes/undraw_trends_a5mf.svg" alt="sample39"/>
+            <figcaption>
+              <h3>Trending</h3>
+            </figcaption>			
+          </figure>
+          <figure class="works-container__card__image">
+            <img src="imagenes/undraw_business_shop_qw5t.svg" alt="sample40"/>
+            <figcaption>
+              <h3>Market place</h3>
+            </figcaption>			
+          </figure>
+        </div>
+        <button>
+          <a href="works.html" id="contactme">Ver más</a>
+        </button>  
+      </section>
+      <section class="contactme-container">
+        <h3>Contactame</h3>
+        <div class="contactme-container__message">
+          <div class="contactme-container__message__text">
+            <span>Enviame un mensaje!</span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et labore esse repellat in cum 👋🏼.</p>
+          </div>
+          <form id="form" class="contactme-container__message__form">
+            <input id="name" type="text" placeholder="Nombre">
+            <input id="email" type="text" placeholder="EMAIL">
+            <textarea id="message" type="text" placeholder="Escribe tu comentario"></textarea>
+            <input id="submit" type="submit" value="Enviar">
+          </form>
+        </div>
+      </section>
+      <footer class="footer-container">
+        <span>Tomás Vizzo</span>
+        <div>
+          <a href="https://www.linkedin.com/in/tom%C3%A1s-vizzo-4056831aa/"><i class="fab fa-linkedin-in"></i></a>
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+</body>
+</html>
